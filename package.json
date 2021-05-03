@@ -1,0 +1,47 @@
+{
+  "name": "printer",
+  "description": "Node.js printer bindings",
+  "version": "0.4.0",
+  "author": {
+    "name": "Jclan"
+  },
+  "contributors": [
+    "Name Lastname <email@server.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/Jclan-Sistemas/printer.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.4.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^3.0.0",
+    "grunt-node-gyp": "^5.0.0",
+    "nodeunit": "*"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "npg": "node-pre-gyp",
+    "npg-clean": "node-pre-gyp clean",
+    "npg-build": "node-pre-gyp build",
+    "test": "nodeunit test"
+  },
+  "binary": {
+    "module_name": "node_printer",
+    "module_path": "./lib/",
+    "remote_path": "{version}"
+  },
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ],
+  "main": "./lib/printer",
+  "dependencies": {
+    "nan": "^2.14.2",
+    "node-gyp": "^8.0.0",
+    "node-pre-gyp": "^0.17.0"
+  }
+}
