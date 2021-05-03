@@ -1,5 +1,5 @@
-#ifndef NODE_PRINTER_SRC_MACROS_H
-#define NODE_PRINTER_SRC_MACROS_H
+#ifndef PRINTER_SRC_MACROS_H
+#define PRINTER_SRC_MACROS_H
 
 #include <nan.h>
 #include <node_version.h>

@@ -29,7 +29,7 @@
     "test": "nodeunit test"
   },
   "binary": {
-    "module_name": "node_printer",
+    "module_name": "printer",
     "module_path": "./lib/",
     "remote_path": "{version}"
   },

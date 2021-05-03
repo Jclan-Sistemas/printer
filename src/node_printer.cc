@@ -1,4 +1,4 @@
-#include "node_printer.hpp"
+#include "printer.hpp"
 
 #include <node_buffer.h>
 
@@ -16,7 +16,7 @@ void initNode(v8::Local<v8::Object> exports) {
     MY_MODULE_SET_METHOD(exports, "getSupportedJobCommands", getSupportedJobCommands);
 }
 
-NODE_MODULE(node_printer, initNode);
+NODE_MODULE(printer, initNode);
 
 // Helpers
 

@@ -1,5 +1,5 @@
-#ifndef NODE_PRINTER_HPP
-#define NODE_PRINTER_HPP
+#ifndef PRINTER_HPP
+#define PRINTER_HPP
 
 #include "macros.hh"
 
