@@ -35,7 +35,7 @@
   },
   "licenses": [
     {
-      "type": "BSD"
+      "type": "MIT"
     }
   ],
   "main": "./lib/printer",
