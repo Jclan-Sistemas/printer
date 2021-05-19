@@ -1,7 +1,7 @@
 {
   "name": "printer",
   "description": "Node.js printer bindings",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": {
     "name": "Jclan"
   },
@@ -23,9 +23,9 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "npg": "node-pre-gyp",
-    "npg-clean": "node-pre-gyp clean",
-    "npg-build": "node-pre-gyp build",
+    "npg": "@mapbox/node-pre-gyp",
+    "npg-clean": "@mapbox/node-pre-gyp clean",
+    "npg-build": "@mapbox/node-pre-gyp build",
     "test": "nodeunit test"
   },
   "binary": {
@@ -40,8 +40,8 @@
   ],
   "main": "./lib/printer",
   "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.5",
     "nan": "^2.14.2",
-    "node-gyp": "^8.0.0",
-    "node-pre-gyp": "^0.17.0"
+    "node-gyp": "^8.0.0"
   }
 }
