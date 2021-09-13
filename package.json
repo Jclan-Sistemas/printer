@@ -13,7 +13,7 @@
     "url": " https://github.com/Jclan-Sistemas/printer.git"
   },
   "devDependencies": {
-    "grunt": "^1.4.0",
+    "grunt": "^1.4.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^3.0.0",
     "grunt-node-gyp": "^5.0.0",
@@ -41,7 +41,7 @@
   "main": "./lib/printer",
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.5",
-    "nan": "^2.14.2",
-    "node-gyp": "^8.0.0"
+    "nan": "^2.15.0",
+    "node-gyp": "^8.2.0"
   }
 }
